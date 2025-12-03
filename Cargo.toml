@@ -1,0 +1,11 @@
+# Cargo.toml
+
+[dependencies]
+# Standard image handling (loading, saving, basic manipulation)
+image = "0.24"
+# Command-line argument parsing
+clap = { version = "4.0", features = ["derive"] }
+# High-performance JPEG encoder (often yields best results)
+mozjpeg = "0.9" 
+# Better error handling
+anyhow = "1.0"
